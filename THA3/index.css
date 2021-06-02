@@ -1,0 +1,80 @@
+body {
+    margin: 0px;
+    background-color: #f8f5f1;
+}
+.header {
+    background-color: #e4fbff;
+    display: flex;
+    margin-bottom: 0px;
+}
+
+img {
+    border-radius: 80px;
+    max-width: 100%;
+    height: 130px;
+    margin: 30px;
+    border: 3px solid #11698e;
+    /* border-color: crimson; */
+}
+
+.contact {
+    background-color: #30475e;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.logo {
+    margin-right: 10px;
+    font-size: 20px;
+}
+.Content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.Education {
+    margin: 20px;
+    margin-bottom: 30px;
+    font-size: 17px;
+}
+
+.Projects {
+    margin: 20px;
+    margin-bottom: 30px;
+    font-size: 17px;
+}
+
+.Internships {
+    margin: 20px;
+    margin-bottom: 30px;
+    font-size: 17px;
+}
+.Skills {
+    margin: 20px;
+    margin-bottom: 30px;
+    font-size: 17px;
+}
+.Achievements {
+    margin: 20px;
+    margin-bottom: 30px;
+    font-size: 17px;
+}
+.Certificates {
+    margin: 20px;
+    margin-bottom: 30px;
+    font-size: 17px;
+}
+
+.Languages {
+    margin: 20px;
+    margin-bottom: 30px;
+    font-size: 17px;
+}
+
+.Interests {
+    margin: 20px;
+    margin-bottom: 30px;
+    font-size: 17px;
+}
