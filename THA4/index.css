@@ -1,0 +1,132 @@
+body {
+    background-color:#dbe6fd;
+    text-align: center;
+    background-image: url("https://us.123rf.com/450wm/mblach/mblach1609/mblach160900065/63955239-white-brick-wall-background.jpg?ver=6");
+}
+
+
+.clock {
+    background-color: #bb371a;
+    color: #fff;
+    /* box-shadow: 0px 0px 70px #d65050, 0px 0px 300px gray; */
+    border-radius: 50%;
+    border: 5px solid black;
+    width: 600px;
+    height: 600px;
+    padding: 40px;
+    position: relative;
+    display: inline-block;
+    z-index: -1;
+    /* background-color: white; */
+}
+
+.img {
+    background-color: #ffddcc;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Horlo%C4%9Do_001.svg/300px-Horlo%C4%9Do_001.svg.png");
+    color: white; 
+    position: absolute;
+    border-radius: 50%;
+    width: 600px;
+    height: 600px;
+    background-size: cover;
+    padding: 0px;
+    background-repeat: no-repeat;
+    
+}
+
+.sec, .min, .hour {
+    
+    line-height: 45px;
+    position: relative;
+    /* transform-origin: bottom; */
+}
+
+.sec{
+    height: 220px;
+    width: 3px;
+    top: 80px;
+    background-color: red;
+    opacity: 0.5;
+    z-index: 3;
+    margin-left: 300px;
+    animation: second 60s linear infinite;
+    transform-origin: bottom;
+
+    /* height:50px;
+    width:3px;
+    background-color: black;
+    opacity: 0.6;
+    z-index:3;
+    top: 250px;
+    margin-left:250px;
+    animation: sec_anim 60s linear infinite; */
+    
+}
+
+.min {
+    height: 170px;
+    width: 6px;
+    background-color: black;
+    z-index: 2;
+    margin-left: 300px;
+    top: -90px;
+    animation: minute 600s linear infinite;
+    transform-origin: bottom;
+    opacity: 0.6;
+    /* height: 150px;
+    width:6px;
+    background-color: black;
+    opacity:0.8;
+    z-index:3;
+    top:-150px;
+    animation: min_anim 600s linear infinite;
+    margin-left:250px;
+   padding-bottom: 200px; */
+}
+
+.hour {
+    height: 120px;
+    width: 8px;
+    background-color: black;
+    margin-left: 300px;
+    top: -210px;
+    z-index: 1;
+    animation: Hour 60000s linear infinite;
+    transform-origin: bottom;
+    opacity: 0.7;
+    /* height: 100px;
+    width:8px;
+    background-color: black;
+    left: 250px;
+    top: -430;
+    opacity:0.8;
+    z-index:3;
+    animation: hour_anim 60000s linear infinite;
+    padding-bottom: 100px; */
+}
+
+@keyframes second {
+    from{transform: rotateZ(0deg);}
+    to{transform: rotateZ(360deg);}
+}
+
+@keyframes minute {
+    from{transform: rotateZ(0deg);}
+    to{transform: rotateZ(360deg);}
+    
+}
+
+@keyframes Hour {
+    from{transform: rotateZ(0deg);}
+    to{transform: rotateZ(360deg);}
+    
+}
+/* @keyframes min_anim {
+    from{transform: rotateZ(0deg);}
+    to { transform: rotateZ(360deg);}
+}
+@keyframes hour_anim {
+    from{transform: rotateZ(0deg);}
+    to {transform: rotateZ(360deg);}
+} */
+
