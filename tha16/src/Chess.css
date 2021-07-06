@@ -1,0 +1,17 @@
+.board {
+    border: 15px solid #4F0E0E;
+  }
+  
+.row {
+    display: flex;
+}
+.box {
+    height: 60px;
+    width: 60px;
+    background-color: white;
+}
+  
+  .row:nth-child(odd) > .box:nth-child(odd),
+  .row:nth-child(even) > .box:nth-child(even) {
+    background-color: #BB8760;
+  }
