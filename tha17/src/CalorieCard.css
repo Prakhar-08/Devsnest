@@ -1,0 +1,32 @@
+.calorie-card {
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: #fff;
+    height: 430px;
+    width: 430px;
+    text-align: center;
+    margin-bottom: 20px;
+    background: #E8F6EF;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+ }
+ 
+ img {
+    height: 300px;
+    width: 300px;
+     margin: 10px;
+     border: 1px solid black;
+     border-radius: 15px;
+ }
+ 
+ h2 {
+     text-align: center;
+     margin-bottom: 10px;
+     font-size: 2rem;
+ }
+
+ h3 {
+     font-size: 1.2rem;
+     margin-bottom: 10px;
+     font-weight: 500;
+ }
