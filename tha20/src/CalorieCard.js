@@ -20,4 +20,3 @@ function CalorieCard({title, source, text, index,  items, setItems}) {
 
 export default CalorieCard;
 
-// style={{padding: "5px", fontSize: "1.1rem"}} 
